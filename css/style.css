@@ -4,8 +4,8 @@ body {
 
 .dimmed {
     position: relative;
-    background-image: url('../img/cover_back.jpg');
-    background-size: cover;
+    background-image: url('../img/cover_front.jpg');
+    background-size: contain;
 }
 
 .dimmed:after {
@@ -27,6 +27,7 @@ body {
 
 .come-out {
     z-index: 15;
+    position: absolute;
 }
 
 h1,
@@ -37,9 +38,11 @@ h5,
 h6 {
     font-family: 'Droid Serif';
 }
+
 .jumbotron h3 {
-    font-size: 7em;
+    font-size: 5em;
 }
-h4 {
-    font-size: 3em;
+
+.jumbotron h4 {
+    font-size: 2em;
 }
