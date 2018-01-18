@@ -1,0 +1,45 @@
+body {
+    font-family: 'PT Sans', 'Droid Serif';
+}
+
+.dimmed {
+    position: relative;
+    background-image: url('../img/cover_back.jpg');
+    background-size: cover;
+}
+
+.dimmed:after {
+    content: " ";
+    z-index: 10;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.cover {
+    max-height: 100%;
+    padding: 18% 0 0;
+}
+
+.come-out {
+    z-index: 15;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Droid Serif';
+}
+.jumbotron h3 {
+    font-size: 7em;
+}
+h4 {
+    font-size: 3em;
+}
