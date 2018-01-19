@@ -1,5 +1,5 @@
 body {
-    font-family: 'PT Sans', 'Droid Serif';
+    font-family: 'Poiret One', cursive ;
     padding: 0;
     margin: 0;
     color: rgba(149, 165, 166,1.0);
@@ -24,7 +24,9 @@ canvas {
     display: block;
     vertical-align: bottom;
 }
-
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cinzel";
+}
 
 /* ---- particles.js container ---- */
 
@@ -47,7 +49,6 @@ canvas {
 
 .parallax-overlay {
     background-color: #ecf0f1;
-    font-family: "brandon-grotesque", sans-serif;
     font-size: 2em;
 }
 .parallax-overlay h4 {
@@ -64,4 +65,7 @@ canvas {
 .container-custom {
     margin: auto;
     padding: 30px 15%;
+}
+.container-custom > .form-control {
+    margin: 20px 0;
 }
