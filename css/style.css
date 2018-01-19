@@ -1,48 +1,67 @@
 body {
     font-family: 'PT Sans', 'Droid Serif';
+    padding: 0;
+    margin: 0;
+    color: rgba(149, 165, 166,1.0);
 }
 
 .dimmed {
     position: relative;
-    background-image: url('../img/cover_front.jpg');
-    background-size: contain;
+    background: rgba(149, 165, 166, 0.3);
+    background-size: cover;
 }
 
-.dimmed:after {
+.dimmed h3 {
+    font-size: 4em;
+    font-weight: lighter;
+}
+
+h4 {
+    font-size: 2.5em;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
     content: " ";
     z-index: 10;
-    display: block;
-    position: absolute;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.5);
 }
 
-.cover {
-    max-height: 100%;
-    padding: 18% 0 0;
+.parallax-container {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.come-out {
-    z-index: 15;
-    position: absolute;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Droid Serif';
-}
-
-.jumbotron h3 {
-    font-size: 5em;
-}
-
-.jumbotron h4 {
+.parallax-overlay {
+    background-color: #ecf0f1;
+    font-family: "brandon-grotesque", sans-serif;
     font-size: 2em;
+}
+.parallax-overlay h4 {
+    font-size: 1.5em;
+}
+
+.text-white {
+    color: rgba(236, 240, 241, 1.0) !important;
+}
+
+
+/* Custom Grid System */
+
+.container-custom {
+    margin: auto;
+    padding: 30px 15%;
 }
