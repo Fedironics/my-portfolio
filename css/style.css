@@ -65,7 +65,11 @@ h1, h2, h3, h4, h5, h6 {
 .container-custom {
     margin: auto;
     padding: 30px 15%;
+    clear: both;
 }
 .container-custom > .form-control {
     margin: 20px 0;
+}
+.right {
+    float: right;
 }
