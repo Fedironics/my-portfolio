@@ -25,7 +25,7 @@ canvas {
     vertical-align: bottom;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Cinzel";
+    font-family: "Cinzel";
 }
 
 /* ---- particles.js container ---- */
@@ -72,4 +72,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 .right {
     float: right;
+}
+.work {
+    height: 308px;
+    margin: 15px auto;
+    border-radius: 1% 19%;
+    overflow: hidden;
+}
+.work img {
+    display: block;
+}
+.on-hover{
+    background: rgba(149, 165, 166, 0.3);
+    text-decoration: none;
+    position: relative;
+    top: -308px;
+    height: 100%;
+    padding: 17% 0;
+}
+.on-hover .btn, .on-hover  h4{
+    display: none;
+    margin: 0 auto;
+}
+.on-hover:hover .btn, .on-hover:hover h4 {
+    display: block;
+    text-decoration: none;
+}
+.on-hover:hover {
+    background: rgba(149, 165, 166, 0.6);
+}
+.btn-secondary{
+    color:  rgba(236, 240, 241, 1.0);
+    background: transparent;
+    border: 1px solid rgba(236, 240, 241, 1.0);;
+}
+.parallax-overlay *, .parallax-overlay:hover * {
+    background-color: transparent;
+    color: rgba(236, 240, 241, 1.0) !important;
 }
